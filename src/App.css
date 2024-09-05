@@ -1,0 +1,85 @@
+:root {
+	--q_background: #f0f0f0;
+	--bold: 700;
+	--st-style: Pacifico, Garamond;
+	--qt-styl: "Merriweather", "serif";
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#text {
+	font-style: var(--st-style);
+	font-family: var(--qt-styl)
+}
+
+a, button {
+	text-decoration: none;
+	color: var(--q_background);
+}
+
+button, .sp {
+	font-weight: var(--bold);
+}
+
+
+#social-btn-container, #btn-container, #author {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#quote-box {
+	margin: 20vh auto;
+	min-width: 30vw;
+	max-width: 500px;
+	border-radius: 5px;
+	text-align: center; 
+	position: relative;
+	max-width: 500px;
+	background-color: var(--q_background);
+	min-height: 30vh;
+	padding: 2rem;
+	margin-bottom: none;
+}
+
+#developer {
+	color: var(--q_background);
+}
+
+#developer, #author {
+	font-family: var(--st-style);
+	font-style: italic;
+	font-weight: var(--bold);
+	z-index: -1;
+}
+
+#author {
+	justify-content: right;
+	padding: 1rem;
+	align-items: center;
+}
+
+ #btn-container {
+ 	position: relative;
+ 	margin-top: .5rem;
+ }
+
+
+#social-btn-container {
+	gap: 2vw;
+}
+ 
+#social-btn-container * {
+	font-size: 2rem;
+	width: content-width;
+}
+
+.sp {
+margin: .3rem;
+font-size: 1.5rem;
+}
