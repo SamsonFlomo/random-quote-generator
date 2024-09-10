@@ -90,7 +90,7 @@ const link = 'https:twitter.com/intent/tweet?hashtags=quotes&related=freecodecam
           			</a>
           		</button>
           		<button class="align-color-bg">
-          			<a id="facebook-quote" href={link} target="_blank" >
+          			<a id="facebook-quote" href={link} target="_blank" title="This button will take you to Twitter as well" >
           				<i class="fa-brands fa-square-instagram"></i>
           			</a>
           		</button>

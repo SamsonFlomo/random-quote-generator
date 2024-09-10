@@ -13,10 +13,6 @@
   justify-content: center;
 }
 
-#quote-box {
-    margin: 10% auto;
-}
-
 #text {
 	font-style: var(--st-style);
 	font-family: var(--qt-styl)
